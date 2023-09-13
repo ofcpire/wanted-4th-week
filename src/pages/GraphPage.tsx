@@ -3,7 +3,7 @@ import GraphMain from '../components/graph/GraphMain';
 
 export default function GraphPage() {
   return (
-    <main className="w-full v-full flex justify-center items-center">
+    <main className="w-screen h-screen flex justify-center items-center">
       <GraphMain />
     </main>
   );
