@@ -13,9 +13,5 @@ export default function useCursorXY() {
     setCursorXY({ x: e.clientX, y: e.clientY });
   };
 
-  useEffect(() => {
-    console.log(cursorXY);
-  }, [cursorXY]);
-
   return { cursorXY };
 }

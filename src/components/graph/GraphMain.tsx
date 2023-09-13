@@ -14,9 +14,6 @@ export default function GraphMain() {
     () => Object.keys(data).map(key => Object.assign(data[key], { key: key })),
     [mockData],
   );
-  useEffect(() => {
-    console.log(mouseOverIdx);
-  }, [mouseOverIdx]);
 
   return (
     <div>
